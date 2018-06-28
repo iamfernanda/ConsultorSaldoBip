@@ -1,45 +1,63 @@
 body {
-    background-color: gray;
-    font-family: 'Encode Sans Condensed', sans-serif;  
+    background-color:#2f89fc;
+    font-family: 'Maven Pro', sans-serif;
 }
-
+/* 1er div */
 .container-fluid {
-    width: 80%; 
+    width: 100%; 
     padding: 1em; 
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
+/* logotipo */
 .container-fluid img {
-    width: 80%;
+    width: 60%;
     padding: 1em;
+   
     
 }
-
+/* Trans-Lab */
 .container-fluid h3 {
-    color:#ffa800;
-    font-weight: 600px;
+    color:#ffa800; 
+    font-weight: 800;   
 }
 
+/* olvidaste tu contraseña */
+.container-fluid h4 {
+    color:white;
+    font-size: 11px;
+    
+}
+/* no tienes cuenta */
+.container-fluid h5 {
+    color:white;
+    font-size: 15px;
+}
 
 .container-fluid .col-12 {
-    width: 90%;
+    width: 100%;
     height: 30%;
 }
-
+/* formulario */
 .container-fluid form {
     margin-top:50px;
 }
 
 .container-fluid form input,button {
    width: 100%;
-   height: 60px;
+   height: 50px;
    text-align: center;  
 }
 
 .form-group button {
     background-color: #ffa800;
-    color: rgb(172, 169, 169);
+    color:white;
 }
+
+.form-group input {
+    color:rgb(204, 202, 202);
+}
+
 
 .form-control {
     color: #edebe8;
