@@ -1,1 +1,46 @@
-/* YeyeYeee código aquí */
+body {
+    background-color: gray;
+    font-family: 'Encode Sans Condensed', sans-serif;  
+}
+
+.container-fluid {
+    width: 80%; 
+    padding: 1em; 
+    margin-top: 50px;
+}
+
+.container-fluid img {
+    width: 80%;
+    padding: 1em;
+    
+}
+
+.container-fluid h3 {
+    color:#ffa800;
+    font-weight: 600px;
+}
+
+
+.container-fluid .col-12 {
+    width: 90%;
+    height: 30%;
+}
+
+.container-fluid form {
+    margin-top:50px;
+}
+
+.container-fluid form input,button {
+   width: 100%;
+   height: 60px;
+   text-align: center;  
+}
+
+.form-group button {
+    background-color: #ffa800;
+    color: rgb(172, 169, 169);
+}
+
+.form-control {
+    color: #edebe8;
+}
