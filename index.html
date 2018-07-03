@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+   
     <title>login</title>
 </head>
 
@@ -19,10 +20,10 @@
                 <img src="docs/imagen.png" alt="logo">
                 <h3>Tarjeta bip!</h3>
             <form> 
-                <div class="form-group">
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder= "correo electrónico ">
-                  <input type="password" class="form-control" id="password" placeholder="contraseña">
-                  <button type="submit" class="btn btn">Iniciar sección</button>
+                <div class="login">
+                  <input name="usuario" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder= "correo electrónico " value="">
+                  <input name="contraseña" type="password" class="form-control" id="password" placeholder="contraseña" value="">
+                  <input value="ingresar" type="submit" class="form-control" tabindex="4" id="enviar" name="enviar" onclick="ingresar">
                 </div>
               </form>
               <h4>¿Olvidaste tu contraseña?</h4>

@@ -1,5 +1,5 @@
 body {
-    background-color:#2f89fc;
+    background-color:#0074e4;
     font-family: 'Maven Pro', sans-serif;
 }
 /* 1er div */
@@ -43,22 +43,22 @@ body {
     margin-top:50px;
 }
 
-.container-fluid form input,button {
+.container-fluid form input, #enviar {
    width: 100%;
    height: 50px;
    text-align: center;  
 }
 
-.form-group button {
+.login #enviar {
     background-color: #ffa800;
     color:white;
 }
 
-.form-group input {
+.login input {
     color:rgb(204, 202, 202);
 }
 
 
-.form-control {
+.login {
     color: #edebe8;
 }

@@ -1,0 +1,264 @@
+body {
+    background-color:#2f89fc;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* ----MENU---- */
+header {
+    width: 100%;
+    height: 80px;;
+}
+ header nav {
+     width: 90%;
+     max-width: 1000px;
+     margin: 20px auto;
+     background: #264e86;
+ }
+
+ .menu {
+     display: none;
+ }
+ header nav ul{
+     overflow:hidden;
+     list-style: none;
+ }
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: #edebe8;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header nav ul li i {
+   margin-right: 5px;
+}
+
+header nav ul li a:hover {
+    background: #edebe8;
+}
+
+.container-fluid button{
+    width: 100%; 
+    padding: 1em; 
+    margin-top: 40px;
+}
+
+.container-fluid .col-12 {
+    width: 100%;
+    height: 30%;
+}
+
+/* formulario */
+.container  {
+    margin-top:50px;
+}
+
+.container button {
+   width: 100%;
+   height: 50px;
+   text-align: center; 
+   margin-top: 10px; 
+   font-size: 20px;
+   font-weight: inherit
+}
+
+.btn-lg.btn-block {
+    background-color: #ffa800;
+    color:#edebe8;
+}
+
+.btn-lg.btn-block {
+    color: #edebe8;
+}
+
+/* ----PERFIL---- */
+
+#boxPerfil{
+    width: 100%;
+    height: 610px;
+    background: #edebe8;
+    position: absolute;
+    bottom: 0px;
+    visibility: hidden;
+   
+   
+}
+#perfil {
+    width: 100%;
+    height: 220px;
+    background:#2f89fc;
+}
+
+.text-center{
+    margin: auto;
+}
+#perfil img {
+    width: 45%;
+}
+
+
+#correo {
+    width:80% ;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 1em;
+    color: gray;
+    background-color: white;
+}
+
+#numerTarjeta {
+    width:80% ;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 40px;
+    padding: 1em;
+    color: gray;
+    background:#edebe8; 
+    display: block;
+    
+}
+
+#enviar {
+    width:80% ;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 1em;
+    color: #edebe8;
+    background: #ffa800;
+    display: block;
+}
+
+
+
+@media screen and (max-width:800px ){
+    
+    #menu_nav {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+        opacity: 1;
+        z-index: 2;
+        background: #0074e4;
+        display: none;
+    }
+    a:hover + #menu_nav {
+        display: block;
+    }
+   
+
+    #menu_nav ul li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255,255,255, .3);
+    }
+
+    .fas.fa-bars {
+        display:block;
+        width: 100%; 
+        padding: 1em;
+        background: #264e86;
+        color: #edebe8;
+    }
+    a {
+        display: block;
+        background:#0074e4;
+        color: #edebe8;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .menu i {
+        float: right;
+        font-size: 30px;
+    }
+
+    /* ----PERFIL---- */
+
+    .container-fluid.p-0{
+        width: 100%;
+        height: 650px;
+        background: #edebe8;
+        position: absolute;
+        bottom: 0px;
+       
+    }
+    #perfil {
+        width: 100%;
+        height: 170px;
+        background:#2f89fc;
+    }
+
+    .text-center{
+        margin: auto;
+    }
+    #perfil img {
+        width: 45%;
+    }
+
+    #correo {
+        width:80% ;
+        font-size: 18px;
+        margin-top: 40px;
+        padding: 1em;
+        color: gray;
+        background-color: white;
+    }
+
+    #numerTarjeta {
+        width:80% ;
+        border: none;
+        border-bottom: 1px solid gray;
+        margin-top: 40px;
+        padding: 1em;
+        color: gray;
+        background:#edebe8; 
+        display: block;
+        
+    }
+
+    #enviar {
+        width:80% ;
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 1em;
+        color: #edebe8;
+        background: #ffa800;
+        display: block;
+    }
+        
+    /* ----PREGUNTAS FRECUENTES---- */
+
+    #boxPreguntas h3 {
+        color: #edebe8;
+    }
+    #boxPreguntas #q1 {
+        text-align: left;
+        background: #edebe8;
+        color: gray;
+        border: none;
+        border-bottom: 1px solid gray;
+        font-size: 13px;
+    }
+
+    #boxPreguntas #r1 {
+        background: #edebe8;
+        color: gray;
+        padding: 1em;
+        display: none;
+    }
+
+    #q1:hover + #r1 {
+        display: block;
+    }
+
+}

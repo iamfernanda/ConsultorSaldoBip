@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>inicio</title>
+</head>
+
+<body>
+   
+<!--  MENU DESPLEGABLE -->      
+    <header>
+        <a><i class="fas fa-bars"></i></a>
+             <nav id="menu_nav">
+                <ul>  
+                    <li><a href="#"><i class="far fa-money-bill-alt"></i> Ver saldo</a></li>
+                    <li><a href="#"><i class="fas fa-calculator"></i> Calcular Tarifa</a></li>
+                    <li><a href="#"><i class="fas fa-user"></i> Perfil</a></li>
+                    <li><a href="#"><i class="fas fa-question"></i> Preguntas frecuentes</a></li>
+                    <li type="button"><a href="#"><i class="fas fa-arrow-right"></i> Home</a></li>
+                </ul>
+             </nav>
+   </header>
+
+<!-- //////BOTONES DE MENU////// -->
+            <div class="container"> 
+                <!-- Ver saldo -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button class="btn btn-lg btn-block">Ver saldo</button>
+                        </div> 
+                    </div>
+                <!-- Calcular tarifa -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button class="btn btn-lg btn-block">Calcular Tarifa</button>
+                        </div>
+                    </div>
+                <!-- Perfil -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-lg btn-block" onclick="uno()">Perfil</button>
+                        </div>
+                    </div>
+                <!-- Preguntas frecuentes -->    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button class="btn btn-lg btn-block">Preguntas frecuentes</button>
+                        </div>
+                    </div>
+            </div>
+
+<!--//////// PERFIL////////// -->
+                    <div id="boxPerfil" class="container-fluid p-0"> 
+                        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="perfil">
+                                <div class="text-center">
+                                        <img src="docs/user.jpg" alt="..." class="rounded-circle">
+                                </div>
+                        </section>
+                             <div>
+                                <p class="text-center" id="correo">correo electronico aqui</p>
+                                    <input type="text" class="text-center" id="numerTarjeta" placeholder= "Número Tarjeta">
+                                        <input type="submit" class="text-center"  id="enviar"  onclick="ingresar" value="AGREGAR TARJETA" >
+                            </div>
+                    </div>
+<!--//////// PREGUNTAS////////// -->
+                    <div id="boxPreguntas" class="container-fluid p-0"> 
+                            <section class="resume-section p-3 p-lg-5 d-flex d-column" id="perfil">
+                                    <div class="text-center">
+                                            <h3>PREGUNTAS FRECUENTES</h3>
+                                    </div>
+                            </section>
+                                <div>
+                                    <button id="q1" type="button" class="btn btn-lg btn-block" onclick="prengunta1()">Preguntas</button>
+                                    <p id="r1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, atque exercitationem quisquam porro obcaecati tempora recusandae! Velit totam expedita libero repellendus, accusantium natus et voluptates animi placeat harum numquam aperiam?</p>  
+                                </div>
+                                    <div>
+                                        <button id="q1" type="button" class="btn btn-lg btn-block" onclick="prengunta1()">Preguntas</button>
+                                        <p id="r1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, atque exercitationem quisquam porro obcaecati tempora recusandae! Velit totam expedita libero repellendus, accusantium natus et voluptates animi placeat harum numquam aperiam?</p>  
+                                    </div>
+                                        <div>
+                                            <button id="q1" type="button" class="btn btn-lg btn-block" onclick="prengunta1()">Preguntas</button>
+                                            <p id="r1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, atque exercitationem quisquam porro obcaecati tempora recusandae! Velit totam expedita libero repellendus, accusantium natus et voluptates animi placeat harum numquam aperiam?</p>  
+                                        </div>
+                                            <div>
+                                                <button id="q1" type="button" class="btn btn-lg btn-block" onclick="prengunta1()">Preguntas</button>
+                                                <p id="r1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, atque exercitationem quisquam porro obcaecati tempora recusandae! Velit totam expedita libero repellendus, accusantium natus et voluptates animi placeat harum numquam aperiam?</p>  
+                                            </div>
+                        </div>
+
+
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous">
+</script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/btns.js"></script>
+</body>
+
+</html>
